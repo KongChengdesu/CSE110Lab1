@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    max-width: 100%;
 }
 
 div {
@@ -11,20 +12,19 @@ div {
     top: 0;
     overflow:hidden;
     background-color: white;
-    min-width: 100%;
-    padding: 5px 0px 0px 10px;
+    width: 98%;
+    padding: 10px 0px 0px 2%;
     height: fit-content;
 }
 
-.navbar img {
+.top-logo {
     max-width: 400px;
 }
 
-.navbar ul {
+.navbar-elements {
     padding: 10px 0px;
     margin: 0px;
     min-height: fit-content;
-    
 }
 
 .navbar-link {
@@ -47,20 +47,33 @@ div {
     font-size: 28px;
 }
 
+.section {
+    scroll-margin-top: 146px;
+    background-color: rgb(245, 240, 230);
+    padding: 0px 30px;
+}
+
+section img {
+    max-width: 100%;
+}
+
 .section1 {
-    scroll-margin-top: 133px;
+    scroll-margin-top: 146px;
     background-color: rgb(245, 240, 230);
 }
 
 .section2 {
-    scroll-margin-top: 133px;
+    scroll-margin-top: 146px;
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
     color: white;
 }
 
-.section {
-    scroll-margin-top: 133px;
-    background-color: rgb(245, 240, 230);
+.section4 {
+    scroll-margin-top: 146px;
+    width: 100%;
+    padding-bottom: 10px;
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    color: white;
 }
 
 .block-grid {
@@ -81,3 +94,32 @@ div {
 .block-element p {
     margin: 10px;
 }
+
+@media screen and (max-width: 800px) {
+
+    .navbar {
+        padding-bottom: 5px;
+    }
+
+    .navbar-elements{
+        display: none;
+    }
+
+    .top-logo {
+        max-width: 75%;
+    }
+
+    section h1 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 20px;
+    }
+
+    .block-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+

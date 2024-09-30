@@ -1,18 +1,19 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="navbar">
-            <img src="https://www.ucsd.edu/_resources/img/logo_UCSD.png">
-            <br>
-            <ul>
+            <div>
+                <img src="https://www.ucsd.edu/_resources/img/logo_UCSD.png" class="top-logo">
+            </div>
+            <ul class="navbar-elements">
                 <a href="#1" class="navbar-link">Section 1</a>
                 <a href="#2" class="navbar-link">Section 2</a>
                 <a href="#3" class="navbar-link">Section 3</a>
             </ul>
         </div>
-        <br>
         <div id="1" class="section1 section">
             <h1>Section 1</h1>
             <img src="https://brand.ucsd.edu/_images/logos-and-brand-elements/additional-campus-logos/ucsd-athletics-logo.svg" alt="">
@@ -56,6 +57,14 @@
                     </p>
                 </div>
             </div>
+        </div>
+        <div class="section section4" id="4">
+            <h1>Subscribe to our Newsletter!</h1>
+            <form action="https://www.w3schools.com/action_page.php">
+                <label for="email-input">Enter your email:</label>
+                <input type="text" id="email-input" name="email">
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </body>
 </html>
