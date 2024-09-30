@@ -21,14 +21,14 @@ div {
 }
 
 .navbar ul {
-    padding: 0px;
+    padding: 10px 0px;
     margin: 0px;
     min-height: fit-content;
-    overflow:unset;
+    
 }
 
 .navbar-link {
-    padding: 14px 20px;
+    padding: 10px 10px;
     font-size: 28px;
     color: #182b49;
     text-decoration: none;
