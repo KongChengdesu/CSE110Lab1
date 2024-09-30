@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 div {
@@ -70,7 +71,7 @@ section img {
 
 .section4 {
     scroll-margin-top: 146px;
-    width: 100%;
+    width: 100%;    
     padding-bottom: 10px;
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
     color: white;
